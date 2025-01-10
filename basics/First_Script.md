@@ -104,7 +104,7 @@ clip.set_output()
 2. **Encode the Video**:
    To encode the video, pipe the output into an encoder like `x264` or `x265`:
    ```bash
-   vspipe first_script.vpy - | x264 --preset slow --crf 18 -o output.mkv -
+   vspipe first_script.vpy - | x264 --demuxer y4m --preset placebo --level 41 --crf 16.9 --me umh --rc-lookahead 250 --profile high --deblock -2:-1 --chroma-qp-offset -1 --qcomp 0.70 --aq-mode 3 --aq-strength 0.80 --psy-rd 1.00:0 -o output.h264 -
    ```
 
 ---
