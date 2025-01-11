@@ -26,8 +26,3 @@ Welcome to the Encoding Guide! This guide is divided into multiple sections to h
 ## Getting Started
 
 To begin, follow the [Setup](basics/setup.md) guide to configure your environment. Once ready, dive into the [First Script](basics/First_Script.md) to start creating your first video processing pipeline.
-
-
-## Getting Started
-
-To begin, follow the [Setup](setup.md) guide to configure your environment. Once ready, dive into the [First Script](first_script.md) to start creating your first video processing pipeline.
