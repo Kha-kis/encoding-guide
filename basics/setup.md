@@ -84,24 +84,20 @@ Here’s a list of essential tools for video encoding:
 2. **Install**:
    - On **Windows**: Run the installer and select all required components.
    - On **Linux/macOS**
-      - Add the deb-multimedia Repository[/b] (Required for VapourSynth):
-      - Ensure you have the [b]deb-multimedia[/b] repository configured on your system. This repository provides the necessary packages for VapourSynth.
-      - Visit [url=https://www.deb-multimedia.org/]deb-multimedia.org[/url] for instructions specific to your distribution.
+      - Add the **deb-multimedia** Repository (Required for VapourSynth):
+      - Visit [deb-multimedia.org](https://www.deb-multimedia.org/) for instructions specific to your distribution.
 
-   [b]Example for Debian-based Systems:[/b]
-   [code]
+   **Example for Debian-based Systems**:
+   ```bash
    sudo apt update
    sudo apt install -y wget
    wget https://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
    sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
    sudo apt update
-   [/code]
+   ```
 
-2. [b]Install VapourSynth[/b]:
-   After setting up the repository, you can install VapourSynth using the following command:
-   [code]
-   sudo apt install -y vapoursynth
-   [/code]    
+2. **Install VapourSynth**:
+   After setting up the repository, you can install VapourSynth using the following command:   
      ```bash
      sudo apt-get install vapoursynth
      ```
