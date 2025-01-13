@@ -3,10 +3,6 @@
 
 Welcome to the Encoding Guide! This guide is divided into multiple sections to help you understand the various aspects of video encoding.
 
-# Encoding Guide
-
-Welcome to the Encoding Guide! This guide is divided into multiple sections to help you understand the various aspects of video encoding.
-
 ## Sections
 
 - [Setup](basics/setup.md): A comprehensive guide to setting up your encoding environment, including software installation and configuration.
