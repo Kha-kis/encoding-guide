@@ -63,7 +63,7 @@ Bitrate measures the amount of data used per second of video or audio, typically
 
 ### **Frame Rate**
 Frame rate (frames per second or **fps**) refers to the number of images displayed per second. Common frame rates:
-- **24 fps**: Standard for most films.
+- **23.976 fps**: Standard for most films.
 - **30 fps**: Common for TV and streaming.
 - **60 fps**: Smooth playback for sports or gaming.
 
